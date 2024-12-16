@@ -1,0 +1,26 @@
+.calender{
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+   grid-template-rows: 30px repeat(5,40px);
+   gap: 20px;
+}
+.date,.day{
+    background-color: aquamarine;
+   
+    border-radius: 7px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.day{
+    background-color: chocolate;
+}
+.other-month{
+    background-color: cornflowerblue;
+}
+
+.date:hover{
+    background-color: black;
+    color: azure;
+}
